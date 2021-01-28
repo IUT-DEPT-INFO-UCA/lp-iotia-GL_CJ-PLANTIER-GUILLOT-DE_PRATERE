@@ -2,7 +2,8 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - develop
   pull_request:
     branches: [ main ]
 
@@ -11,7 +12,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    working-directory: ./docker/docker/
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
