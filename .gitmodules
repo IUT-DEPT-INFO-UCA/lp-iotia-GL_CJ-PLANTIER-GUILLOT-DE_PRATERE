@@ -1,0 +1,6 @@
+[submodule "tp-Ansible"]
+	path = tp-Ansible
+	url = https://github.com/aplantier/tp-ansible
+[submodule "docker"]
+	path = docker
+	url = https://github.com/aplantier/TP-dockers
