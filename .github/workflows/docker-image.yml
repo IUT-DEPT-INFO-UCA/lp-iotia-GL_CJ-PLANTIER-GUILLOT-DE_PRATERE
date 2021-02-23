@@ -9,9 +9,9 @@ on:
     branches: [ main ]
 
 jobs:
-
-  build:
-
+    nginx_pla_dep_gui:
+            name: nginx_pla_dep_gui    
+    
     runs-on: ubuntu-latest
 
     steps:
