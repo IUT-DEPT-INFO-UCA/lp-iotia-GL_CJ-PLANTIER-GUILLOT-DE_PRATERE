@@ -4,6 +4,3 @@
 [submodule "tp-git"]
 	path = tp-git
 	url = https://github.com/aplantier/tp-git
-[submodule "TP-dockers"]
-	path = TP-dockers
-	url = https://github.com/aplantier/TP-dockers
